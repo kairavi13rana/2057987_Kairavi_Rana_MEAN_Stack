@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_manager</title>
+    <script src="Budget_planner.js"></script>
+    <style>
+        h4{text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        table.center{
+            margin-left: auto  ;
+            margin-right: auto; 
+        }
+        button{ margin:5px;}
+        td{
+            padding: 10px;
+        }
+        td { padding: 15px}
+            
+    </style>
+</head>
+<body>
+    <h4>Add New Budget</h4><br>
+    <form>
+    <table class="center">
+    
+        <tr>
+            <td>
+                <label><b>Client Name</b></label>
+            </td>
+            <td>
+                <input type="text" name="Name" id="Clientname"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label><b>Project Name</b> </label>
+            </td>
+        <td>
+            <input type="text" name="Name" id="Projectname"><br>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <label><b>Budget</b></label>
+            </td>
+        
+        <td>
+            <input type="text" name="Name" id="Budget"><br>
+        </td>
+    </tr>
+<tr> 
+    
+</tr>
+    <tr>
+        <td>
+        <input type="button" value="Add" onclick="addData()">
+        <input type="reset" value="Clear">
+        <input type="button" value="Delete">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="Planner.html">Back</a>
+        </td>
+    </tr>
+    </table>
+    
+</form>
+ 
+ 
+    
+</body>
+</html>

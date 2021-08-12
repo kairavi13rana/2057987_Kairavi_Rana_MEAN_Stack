@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    
+        h1{
+            text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif; color:indigo;background-color:teal;font-weight: bold;
+        }
+        nav nav-pills nav-fill{
+            font-size: xx-large;
+        }
+        nav{
+            font-size: xx-large;
+        }
+        .img-fluid{
+            width: 460px;
+            height: 400px;
+        }
+
+    </style>
+</head>
+
+<!--Navigation-->
+
+<body>
+    <h1>Shoppig Cart</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link " href="#"><b>cart size</b></a>
+          <p id="value"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html"><b>Checkout</b></a>
+        </li> 
+    </ul> 
+    <br/>
+
+   
+<!--Box model-->
+
+     <div class = "container">
+        <div class="row g-2">
+            <div class="col-6">
+              <div class="p-5 border bg-light">
+                 
+                  <h4>
+                    <label for="lName" class="form-label">Product:</label>
+                    <label for="pName" class="form-label">Printer</label>
+                </h4>
+                <h5>
+                    <label for="lPrice" class="form-label">Price:</label>
+                    <label for="pValue" class="form-label">$200</label>
+                </h5>
+                <div class="col">
+                <img class="img-fluid" src="https://images.pexels.com/photos/7014415/pexels-photo-7014415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                </div>
+                <br>
+                <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData('Printer',200)">    
+               
+                </div>
+                </div>
+            
+            <div class="col-6">
+              <div class="p-5 border bg-light">
+              
+                  <h4>
+                    <label for="lName" class="form-label">Product:</label>
+                    <label for="pName" class="form-label">Keyboard</label>
+                </h4>
+                <h5>
+                    <label for="lPrice" class="form-label">Price:</label>
+                    <label for="pValue" class="form-label">$100</label>
+                </h5>
+                <div class="col">
+                <img class="img-fluid" src="https://images.pexels.com/photos/7531569/pexels-photo-7531569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                </div>
+                <br>
+                    <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData('Keyboard',100)">
+                </div>
+                </div>
+           
+            <div class="col-6">
+              <div class="p-5 border bg-light">
+                  
+                  <h4>
+                    <label for="lName" class="form-label">Product:</label>
+                    <label for="pName" class="form-label">iPad</label>
+                </h4>
+                <h5>
+                    <label for="lPrice" class="form-label">Price:</label>
+                    <label for="pValue" class="form-label">$500</label>
+                </h5>
+                <div class="col">
+                <img class="img-fluid" src="https://images.pexels.com/photos/3785868/pexels-photo-3785868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
+                </div>
+                <br>
+                    <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData('iPad',500)">
+                </div>
+                </div>
+        
+            <div class="col-6">
+              <div class="p-5 border bg-light">
+                  
+                  <h4>
+                    <label for="lName" class="form-label">Product:</label>
+                    <label for="pName" class="form-label">Laptop</label>
+                </h4>
+                <h5>
+                    <label for="lPrice" class="form-label">Price:</label>
+                    <label for="pValue" class="form-label">$1000</label>
+                </h5>
+                <div class="col">
+                <img class="img-fluid" src="https://images.pexels.com/photos/7739813/pexels-photo-7739813.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                </div>
+                <br>
+                    <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData('Laptop',1000)">
+                </div>
+                </div>
+        
+          </div>
+        </div>
+
+     
+
+</body>
+</html>

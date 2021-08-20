@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Shoppig Cart</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link " href="#"><b>cart size</b></a>
+          <p id="value"></p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html"><b>Checkout</b></a>
+        </li> 
+    </ul> 
+    <div class="container">
+
+	
+
+	<div class="cart">
+
+		<div class="products">
+
+			<div class="product">
+
+				<img src="https://images.pexels.com/photos/7014415/pexels-photo-7014415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+				<div class="product-info">
+
+					<h3 class="product-name">Printer</h3>
+
+					<h4 class="product-price">$ 1,00</h4>
+
+					
+
+					<p class="product-quantity">Qnt: <input value="1" name="">
+
+					<p class="product-add">
+
+                        <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData()">
+                       
+
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="product">
+
+				<img src="https://images.pexels.com/photos/7531569/pexels-photo-7531569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+				<div class="product-info">
+
+					<h3 class="product-name">Keyboard</h3>
+
+					<h4 class="product-price">$ 80</h4>
+
+					<p class="product-quantity">Qnt: <input value="1" name="">
+
+					<p class="product-add">
+
+						<input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData()">
+                        
+						<!--<span class="add">Add</span>-->
+
+					</p>
+
+				</div>
+
+			</div>
+            <div class="product">
+
+				<img src="https://images.pexels.com/photos/3785868/pexels-photo-3785868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+				<div class="product-info">
+
+					<h3 class="product-name">iPad</h3>
+
+					<h4 class="product-price">$ 400</h4>
+
+					<p class="product-quantity">Qnt: <input value="1" name="">
+
+					<p class="product-add">
+                        <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData()">
+	
+
+						<!--<span class="add">Add</span>-->
+
+					</p>
+
+				</div>
+
+		</div>
+
+        <div class="product">
+
+        <img src="https://images.pexels.com/photos/7739813/pexels-photo-7739813.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+        <div class="product-info">
+
+            <h3 class="product-name">Laptop</h3>
+
+            <h4 class="product-price">$ 1400</h4>
+
+            <p class="product-quantity">Qnt: <input value="1" name="">
+
+            <p class="product-add">
+
+                
+                <input class="btn btn-primary" type="button" value="Add" id="btnName" onclick="addData()">
+                
+               
+                <!--<span class="add">Add</span>-->
+
+            </p>
+
+        </div>
+
+		<div class="cart-total">
+
+			
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>

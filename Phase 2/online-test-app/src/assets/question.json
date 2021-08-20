@@ -1,0 +1,16 @@
+
+   [
+    {"question":"What is the full form of CPU?","A":"Central Process Unit","B":"Central Processing Unit","C":"Central Programming Unit","D":"Central Progressive Unit","correctAns":"Central Processing Unit"},
+    {"question":"Which of the following is not a web browser","A":"MOSAIC","B":"WWW","C":"Facebook","D":"Netscape navigator","correctAns":"Facebook"},
+    {"question":" Which one of the followings is a programming language","A":"HTTP","B":"HTML","C":"HPML","D":"FTL","correctAns":"HTML"},
+    {"question":"Which computer program converts assembly language to machine language","A":"MOSAIC","B":"WWW","C":"Facebook","D":"Netscape navigator","correctAns":"Facebook"},
+    {"question":"Which of the following is not a web browser","A":"Interpreter","B":"Compiler","C":"Assembler","D":"Comparator","correctAns":"Assembler"},
+    {"question":"A computer use which type of number system to calculate and to store data","A":"decimal","B":"octal","C":"binary","D":"hexadeciaml","correctAns":"binary"},
+    {"question":"How many layers in the TCP/IP protocol layers","A":"4","B":"7","C":"9","D":"11","correctAns":"4"},
+    {"question":"ASCII has how many codes","A":"64 ","B":"128","C":"256","D":"382","correctAns":"128"},
+    {"question":"When a computer suddenly stops working, it is said to be","A":"crashed","B":"bugged","C":"hanged","D":"held up","correctAns":"hanged"},
+    {"question":"SQL stands for","A":"Structured Query Language","B":"Standard Query Language","C":"Simple Query Language","D":"Standard Quality Language","correctAns":"Structured Query Language"}
+
+    
+
+   ]

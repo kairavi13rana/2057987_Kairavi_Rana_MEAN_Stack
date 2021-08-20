@@ -1,0 +1,23 @@
+
+<div>
+    <form [formGroup]="Form"  (ngSubmit)="submitAnswers()" >
+        <div *ngFor="let quest of questions; let i = index">
+            <p><b> Question {{i+1}} </b></p>
+            <p> {{quest.question}}</p>
+            <input type="radio" formControlName={{quest.question}} value={{quest.A}}> {{quest.A}}<br/>
+            <input type="radio" formControlName={{quest.question}} value={{quest.B}}> {{quest.B}}<br/>
+            <input type="radio" formControlName={{quest.question}} value={{quest.C}}> {{quest.C}}<br/>
+            <input type="radio" formControlName={{quest.question}} value={{quest.D}}> {{quest.D}}<br/>
+            <div style="color: green;" *ngIf="checkForTrue(i)"><b>The selected answer was correct!</b></div>
+            <div style="color: red;" *ngIf="checkForFalse(i)"><b> selected answer was incorrect! The correct answer was "{{quest.correctAns}}".</b></div><br/>
+        </div>
+        
+        <input type="submit" value="Submit" style="color: green; text-align: center; " />
+    </form>
+    <br/>
+    <div *ngIf="showResults">
+        <div *ngIf="pass" style="color: green;">Result {{counter}}/10: Pass</div>
+        <div *ngIf="fail" style="color: red;">Result {{counter}}/10: Fail</div>
+    </div>
+</div>
+

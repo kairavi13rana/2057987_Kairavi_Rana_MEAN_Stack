@@ -50,7 +50,7 @@ db.once("open",()=> {
         } else {
             console.log(err);
         }
-        mongoose.disconnect(); 
+        // mongoose.disconnect(); 
     })
     });
 });
